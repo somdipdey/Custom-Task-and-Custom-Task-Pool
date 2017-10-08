@@ -10,8 +10,6 @@ Write a C# class to execute a number of pieces of work (actions) in the backgrou
 •	The actions are not necessarily added all at the same time
 •	The actions are not necessarily all executed on the same thread
 
-After completion, please let us know whether this was something you already knew how to do, or if you had to research it.  There isn’t a correct answer to this, but if you did research it, tell us how did you went about finding the information you needed.
-
 # Solution:
 In this implementation two new custom classes were created: GenericTaskList and Task.
 The GenericTaskList manages all the custom tasks added to it. And all the custom tasks has some custom prperties such as Id, Messages and ThreadId on which the method of that task is running.
