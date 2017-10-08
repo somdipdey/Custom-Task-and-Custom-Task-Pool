@@ -101,13 +101,15 @@ namespace WorkWorkWork
                 Console.WriteLine("Running on Thread Id: " + System.Threading.Thread.CurrentThread.ManagedThreadId);
             }
 
-            Console.WriteLine("MAIN THREAD of ID: " + System.Threading.Thread.CurrentThread.ManagedThreadId + " is still runnin!");
+            Console.WriteLine("MAIN THREAD of ID: " + System.Threading.Thread.CurrentThread.ManagedThreadId + " is still running!");
             Console.WriteLine("MAIN THREAD's work complete! Please press ENTER to exit.");
+            Console.WriteLine(System.Environment.NewLine);
 
             //Dispose method to dispose of all objects of custom tasks
             taskList.DisposeTasks();
 
             //check what each task is up to after the dispose operation-->
+            Console.WriteLine("After invoking Dispose() method -->");
             foreach (Task thistask in taskList.list)
             {
                 Console.WriteLine("----");
