@@ -43,7 +43,7 @@ namespace WorkWorkWork
             //Run each custom task on different threads
             foreach (Task thisTask in taskList.list)
             {
-                // If the CPU of the system is not performaing critical (too busy)
+                // If the CPU of the system is not performing critically (is too busy)
                 // then spawn each thread with above normal priority
                 // Or else spawn each thread with normal priority
                 if (!sysTracker.CPU_Performing_Critical)
