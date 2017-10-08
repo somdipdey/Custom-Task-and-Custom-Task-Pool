@@ -21,11 +21,14 @@ The method CompleteTask() in the GenericTaskList completes/finishes the methods 
 The method DisposeTasks() in GenericTaskList disposes of the objects of each task on the list.
 
 # Console Output Screenshots
-
+Custom Tasks running sequentially and in order on different threads:
 ![Alt text](https://user-images.githubusercontent.com/8515608/31317915-588af37a-ac41-11e7-89be-af4727b0e24e.PNG "Custom Tasks running sequentially and in order on different threads")
 
-![Alt text](http://imgur.com/IHxvsRQ "Main thread Id is different from the custom tasks' thread Id")
+Main thread Id is different from the custom tasks' thread Id:
+![Alt text](https://user-images.githubusercontent.com/8515608/31317917-61e8afd4-ac41-11e7-9ee4-15349ac1ea14.PNG "Main thread Id is different from the custom tasks' thread Id")
 
-![Alt text](http://imgur.com/7ofjcjv "After all the custom tasks are completed, only mother (main) thread is running")
+After all the custom tasks are completed, only mother (main) thread is running:
+![Alt text](https://user-images.githubusercontent.com/8515608/31317919-679f23a4-ac41-11e7-8e2a-3095da415bad.PNG "After all the custom tasks are completed, only mother (main) thread is running")
 
-![Alt text](http://imgur.com/cLkfLLS "After custom Dispose() is invoked, all the objects of custom tasks are disposed eventually")
+After custom Dispose() is invoked, all the objects of custom tasks are disposed eventually:
+![Alt text](https://user-images.githubusercontent.com/8515608/31317922-6a98a0b2-ac41-11e7-9e98-7b789b0e5619.PNG "After custom Dispose() is invoked, all the objects of custom tasks are disposed eventually")
