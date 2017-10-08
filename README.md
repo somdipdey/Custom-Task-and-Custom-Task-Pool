@@ -22,7 +22,7 @@ The method DisposeTasks() in GenericTaskList disposes of the objects of each tas
 
 # Console Output Screenshots
 
-![Alt text](http://imgur.com/1jbUpGd "Custom Tasks running sequentially and in order on different threads")
+![Alt text](https://user-images.githubusercontent.com/8515608/31317915-588af37a-ac41-11e7-89be-af4727b0e24e.PNG "Custom Tasks running sequentially and in order on different threads")
 
 ![Alt text](http://imgur.com/IHxvsRQ "Main thread Id is different from the custom tasks' thread Id")
 
