@@ -19,3 +19,13 @@ The GenericTaskList manages all the custom tasks added to it. And all the custom
 The method Add() in GenericTaskList adds new custom task to it.
 The method CompleteTask() in the GenericTaskList completes/finishes the methods of the task sequentially and in the order the tasks were added to the list.
 The method DisposeTasks() in GenericTaskList disposes of the objects of each task on the list.
+
+# Console Output Screenshots
+
+![Alt text](https://imgur.com/1jbUpGd "Custom Tasks running sequentially and in order on different threads")
+
+![Alt text](https://imgur.com/IHxvsRQ "Main thread Id is different from the custom tasks' thread Id")
+
+![Alt text](https://imgur.com/7ofjcjv "After all the custom tasks are completed, only mother (main) thread is running")
+
+![Alt text](https://imgur.com/cLkfLLS "After custom Dispose() is invoked, all the objects of custom tasks are disposed eventually")
