@@ -19,7 +19,6 @@ using SystemPerformance;
     •	The actions are not necessarily added all at the same time
     •	The actions are not necessarily all executed on the same thread
 
-    After completion, please let us know whether this was something you already knew how to do, or if you had to research it.  There isn’t a correct answer to this, but if you did research it, tell us how did you went about finding the information you needed.
  *
  */
 
