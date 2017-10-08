@@ -21,10 +21,12 @@ The method CompleteTask() in the GenericTaskList completes/finishes the methods 
 The method DisposeTasks() in GenericTaskList disposes of the objects of each task on the list.
 
 # Console Output Screenshots
+
 Custom Tasks running sequentially and in order on different threads:
 ![Alt text](https://user-images.githubusercontent.com/8515608/31317915-588af37a-ac41-11e7-89be-af4727b0e24e.PNG "Custom Tasks running sequentially and in order on different threads")
 
 Main thread Id is different from the custom tasks' thread Id:
+
 ![Alt text](https://user-images.githubusercontent.com/8515608/31317917-61e8afd4-ac41-11e7-9ee4-15349ac1ea14.PNG "Main thread Id is different from the custom tasks' thread Id")
 
 After all the custom tasks are completed, only mother (main) thread is running:
