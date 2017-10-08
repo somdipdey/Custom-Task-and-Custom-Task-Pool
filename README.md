@@ -22,7 +22,7 @@ On the main thread (main program) a GenericTaskList is initiated and then each c
 
 # Console Output Screenshots
 
-#### Custom Tasks running sequentially and in order on different threads:
+#### Custom Tasks running sequentially and in order but on different threads:
 ![Alt text](https://user-images.githubusercontent.com/8515608/31317915-588af37a-ac41-11e7-89be-af4727b0e24e.PNG "Custom Tasks running sequentially and in order on different threads")
 
 #### Main thread Id is different from the custom tasks' thread Id:
